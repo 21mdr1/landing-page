@@ -1,3 +1,12 @@
+/* To Do */
+/* 
+    - Add flexible margins
+    - Fix message at the bottom
+    - Figure out font?
+    - Consolidate text styling so that it's reusable
+    - Maybe consolidate margin styling?
+    - Personalize*/
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0px;
@@ -163,12 +172,17 @@ button {
     gap: 100px;
 }
 
+.message-text {
+    flex: auto;
+}
+
 .message-title {
     font-size: 20px;
 }
 
 .message > button {
     border: 2px solid #E5E7EB;
+    flex: auto;
 }
 
 /* Footer */
