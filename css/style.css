@@ -81,3 +81,27 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+
+/* Section Two */
+
+.two {
+    color: #1F2937;
+}
+
+.subtitle {
+    font-size: 36px;
+    /* font-weight: extra-bold; */
+    font-weight: 900;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
