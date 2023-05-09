@@ -7,6 +7,8 @@ body > * {
     padding: 0px 100px;
 }
 
+/* Nav bar */
+
 nav{
     background-color: #1F2937;
     display: flex;
@@ -33,4 +35,34 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Section One */
+.one {
+    background-color: #1F2937;
+    /* display: flex; */
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.one > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border: none;
+    padding: 6px 32px;
+    border-radius: 4px;
+}
+
+.img {
+    color: #F9FAF8;
+    background-color: darkgray;
 }
