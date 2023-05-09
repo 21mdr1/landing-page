@@ -40,12 +40,22 @@ a {
 /* Section One */
 .one {
     background-color: #1F2937;
-    /* display: flex; */
+    display: flex;
+    padding: 100px;
+    gap: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
 }
 
 .title {
     font-size: 48px;
-    font-weight: extra-bold;
+    /* font-weight: extra-bold; */
+    font-weight: 900;
     color: #F9FAF8;
 }
 .text {
@@ -60,9 +70,14 @@ button {
     border: none;
     padding: 6px 32px;
     border-radius: 4px;
+    max-width: 142px;
 }
 
 .img {
     color: #F9FAF8;
-    background-color: darkgray;
+    background-color: rgb(92, 93, 94);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
