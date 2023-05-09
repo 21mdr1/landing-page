@@ -122,3 +122,26 @@ button {
     width: 130px;
     height: 130px;
 }
+
+/* Section Three */
+.three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    align-self: center;
+}
+
+.cred {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
